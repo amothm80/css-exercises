@@ -46,21 +46,18 @@ body {
 
 .cards{
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  flex: 0 1 auto;
-  padding: 10px;
+  flex: 1;
   gap: 10px;
+  padding: 10px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-width: 300px;
-  min-height: 200px;
+  width: 300px;
   padding: 16px;
 
 }
